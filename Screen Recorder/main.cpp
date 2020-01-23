@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "MP4File.h"
 
 #include <iostream>
