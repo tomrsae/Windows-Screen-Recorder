@@ -11,4 +11,4 @@ I wouldn't personally recommend using this library over others, as I'm still ver
 It does however, work as a decent reference for others that are just starting to work with the Media Foundation.
 
 # Example usage
-The `main.cpp` file in the `Screen Recorder` folder shows how easy it the library can be used in a regular console program.
+The `main.cpp` file in the `Screen Recorder` folder shows how easy the library can be used in a regular console program.
