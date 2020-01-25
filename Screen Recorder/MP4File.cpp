@@ -324,7 +324,7 @@ HRESULT MP4File::AppendFrame(HBITMAP frame)
 
 HRESULT MP4File::Finalize()
 {
-	if (SUCCEEDED(m_writeFrameResult))
+	if (SUCCEEDED(m_writeFrameResult) && m_isInitialized)
 	{
 		m_pSinkWriter->Finalize();
 
